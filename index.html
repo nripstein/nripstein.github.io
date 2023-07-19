@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Noah Ripstein</title>
+    <meta name="description" content="Noah Ripstein Website" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/circle_facepic_zoomed.png"
+              alt="Noah Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Noah Ripstein</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link"> <!-- had ./projectsindex.html -->
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Noah Ripstein</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Welcome to my website!  
+            
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/noah-ripstein/" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/nripstein" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> <!--
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>-->
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I'm an undergraduate student at McMaster University interested in Data Science and Computational Statistics.
+            My interest in these fields is guided by my diverse background and research experience in fields ranging from Computational Neuroscience to Philosophy.
+            When I'm not using my free time to code or study machine learning, I like to walk in nature, go canoeing, mountain biking, or play Chess.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Education</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                I am in my fourth year of my undergraduate degree, majoring in Arts and Science with Combined Honours in Psychology, Neuroscience and Behaviour, with a minor in Math.
+              <br></p>
+              <style>
+                .about__content-subsection {
+          font-size: 2rem; }
+
+              </style>
+              <h1 class="about__content-subsection">
+                <b>Relevant Coursework Includes:</b>  
+              </h1>
+              <p class="about__content-details-para">
+                
+                <ul class="about__content-details-para">
+                  <li>Inferential Statistics</li>
+                  <li>Bayesian Statistics</li>
+                  <li>Linear Algebra</li>
+                  <li>Descriptive Statistics</li>
+                  <li>Scientific Computing</li>
+                </ul>
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">NumPy</div>
+              <div class="skills__skill">Pandas</div>
+              <div class="skills__skill">Matplotlib</div>
+              <div class="skills__skill">Seaborn</div>
+              <div class="skills__skill">TensorFlow</div>
+              <div class="skills__skill">Scikit-learn</div>
+              <div class="skills__skill">SciPy</div>
+              <div class="skills__skill">R</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here's a selection of some of my favorite projects I've worked on in my free time
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/bird_project_pic1.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">What Bird is That?</h3>
+              <p class="projects__row-content-desc">
+                Website which identifies the species of bird in user-uploaded uploaded photos, offering interesting facts about the bird.
+                Built using TensorFlow transfer learning and fine-tuning.
+              </p>
+
+              <!-- NEW Wrap in <div class="flex"> to get 2 buttons next to each other-->
+              <style>
+              .flex {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                }
+                
+              .flex-child {
+                  -webkit-box-flex: 1 1 auto;
+                  -moz-box-flex:  1 1 auto;
+                  -webkit-flex:  1 1 auto;
+                  -ms-flex:  1 1 auto;
+                  flex:  1 1 auto;
+                }
+              </style>
+              <div class="flex">
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme project-details__links-btn"
+                >Read More</a
+              >
+              <a
+                href="https://what-bird-is-that.streamlit.app/"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Website Link</a>
+              </div>
+              
+           
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/2048_writeup_ss.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">2048 AI</h3>
+              <p class="projects__row-content-desc">
+                I created a Python clone of the 2014 viral game "2048," and designed an AI to play it.
+                My algorithm achieves a 97% win-rate by leveraging Markov Decision Processes and Monte Carlo simulations to select moves.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/heart_disease_pic1.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Detecting Heart Disease with Machine Learning</h3>
+              <p class="projects__row-content-desc">
+                I conducted a machine learning project using a dataset which reports patient symptoms and presence of heart disease.
+                My aim with this project is to illustrate how doctors can use AI and medical data to help them assess patients.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            If you'd like to learn more about me or my work, I'd be happy to connect!
+          </span>
+
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>My Links</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/noah-ripstein/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nripstein">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <!-- <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a> 
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a> -->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <a href="./index.html">
+              <h4 class="heading heading-sm text-lt">Noah Ripstein</h4>
+            </a> <!--
+            <p class="main-footer__short-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+              tempora explicabo quae quod deserunt
+            </p>-->
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) 
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>-->
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
