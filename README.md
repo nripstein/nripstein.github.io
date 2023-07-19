@@ -1,1 +1,1 @@
-# (Personal website)[nripstein.github.io]
+# [Personal website](nripstein.github.io)
