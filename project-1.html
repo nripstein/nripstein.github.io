@@ -95,6 +95,10 @@
         <div class="project-cs-hero__cta">
           <a href="https://what-bird-is-that.streamlit.app/" class="btn btn--bg" target="_blank">Website Link</a>
         </div>
+
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
       </div>
     </section>
     <section class="project-details">
@@ -105,28 +109,18 @@
               src="./assets/jpeg/bird_project_pic2.jpeg"
               alt="Project Image"
               class="project-details__showcase-img"
+              id = "proj_descript2"
             />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
+              <h3 class="project-details__content-title" id="proj_descript">Project Overview</h3>
               <p class="project-details__desc-para">
                 This project aims to classify bird species using deep learning techniques. It can identify over 500 species of bird with 97+% accuracy.
                 The Bird Classifier leverages feature extraction and fine-tuning of the <a href="https://arxiv.org/pdf/1905.11946.pdf">EfficientNetB4</a> model, 
                 pre-trained on the <a href="https://www.image-net.org/">ImageNet dataset</a>, to accurately identify and provide information about various bird species.
               </p>
               <h3 class="project-details__content-title">Deep Learning Model Design</h3>
-              <!-- <style>
-                ol {
-                  list-style-type: decimal;
-                  list-style-position: inside;
-                  font-size: 18px;
-                }
-              
-                li {
-                  margin-bottom: 10px;
-                }
-              </style>-->
                 <p class="project-details__desc-para"><strong>Data augmentation:</strong> Data augmentation is a powerful technique employed to increase the diversity and variability of the training dataset. The augmentation techniques employed include random horizontal flipping, random height and width shifting, random zooming, random rotation, and random contrast adjustment. By randomly applying these operations to each image during training, the model becomes more resilient to variations in bird pose, lighting conditions, and other factors. This augmentation process enhances the model's ability to generalize well and accurately classify bird species under different circumstances.</p>
                 <p class="project-details__desc-para"><strong>Feature extraction with EfficientNet:</strong> Transfer learning is employed to leverage the knowledge gained from the extensive training on the large-scale ImageNet dataset. The EfficientNet architecture, known for its excellent performance and low training time in image classification tasks, serves as the backbone of the model. Feature extraction uses this backbone model architecture and weights, but adds a few layers which are trained on the bird image dataset.</p>
                 <p class="project-details__desc-para"><strong>Fine-tuning the model:</strong> After training the new layers during feature extraction, the weights of the last 10 layers of the EfficientNet model are unfrozen and trained on the bird images for an additional 5 epochs (with a reduced learning rate). This keeps most of learned features within those layers the same, but slightly adjusts them to perform better at classifying birds specifically.</p>
@@ -274,47 +268,18 @@
                   alt="icon"
                 />
               </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a> 
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a> -->
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
             <a href="./index.html">
               <h4 class="heading heading-sm text-lt">Noah Ripstein</h4>
-            </a> <!--
+            </a> 
+
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>-->
+              <a href="mailto:noah.h.ripstein@gmail.com?">noah.h.ripstein@gmail.com</a>
+            </p>
           </div>
         </div>
-
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) 
-        <div class="main-footer__lower">
-          &copy; Copyright 2023. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>-->
       </div>
     </footer>
     <script src="./index.js"></script>
