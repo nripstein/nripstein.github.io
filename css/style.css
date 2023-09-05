@@ -308,6 +308,18 @@ textarea {
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
 
+    .about__content-details-course-table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 1.8rem;
+      color: grey;
+    }
+    .about__content-details-course-table td {
+      padding: 5px 20px; /* Adjust the values to control the padding */
+      /* border: 1px solid black; Adding borders for illustration purposes */
+    }
+        
+
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
