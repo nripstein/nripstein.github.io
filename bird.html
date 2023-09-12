@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>"What Bird is That?" Project</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/ico/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/circle_facepic_zoomed.png"
+              alt="Noah Ripstein Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Noah Ripstein</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link"> 
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero-bird">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">What Bird is That?</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            "What Bird is That?" is a website which identifies the species of bird in user-uploaded photos.  
+            After identifying the species, it provides the user with some information about the bird.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://what-bird-is-that.streamlit.app/" class="btn btn--bg" target="_blank">Website Link</a>
+        </div>
+
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/bird_project_pic2.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+              id = "proj_descript2"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title" id="proj_descript">Project Overview</h3>
+              <p class="project-details__desc-para">
+                This project aims to classify bird species using deep learning techniques. It can identify over 500 species of bird with 97+% accuracy.
+                The Bird Classifier leverages feature extraction and fine-tuning of the <a href="https://arxiv.org/pdf/1905.11946.pdf">EfficientNetB4</a> model, 
+                pre-trained on the <a href="https://www.image-net.org/">ImageNet dataset</a>, to accurately identify and provide information about various bird species.
+              </p>
+              <h3 class="project-details__content-title">Deep Learning Model Design</h3>
+                <p class="project-details__desc-para"><strong>Data augmentation:</strong> Data augmentation is a powerful technique employed to increase the diversity and variability of the training dataset. The augmentation techniques employed include random horizontal flipping, random height and width shifting, random zooming, random rotation, and random contrast adjustment. By randomly applying these operations to each image during training, the model becomes more resilient to variations in bird pose, lighting conditions, and other factors. This augmentation process enhances the model's ability to generalize well and accurately classify bird species under different circumstances.</p>
+                <p class="project-details__desc-para"><strong>Feature extraction with EfficientNet:</strong> Transfer learning is employed to leverage the knowledge gained from the extensive training on the large-scale ImageNet dataset. The EfficientNet architecture, known for its excellent performance and low training time in image classification tasks, serves as the backbone of the model. Feature extraction uses this backbone model architecture and weights, but adds a few layers which are trained on the bird image dataset.</p>
+                <p class="project-details__desc-para"><strong>Fine-tuning the model:</strong> After training the new layers during feature extraction, the weights of the last 10 layers of the EfficientNet model are unfrozen and trained on the bird images for an additional 5 epochs (with a reduced learning rate). This keeps most of learned features within those layers the same, but slightly adjusts them to perform better at classifying birds specifically.</p>
+              
+              <h3 class="project-details__content-title">Performance on Unseen Test Data:</h3>
+              <style>
+                table {
+                  border-collapse: collapse;
+                  width: 100%;
+                  font-size: 18px;
+                }
+              
+                th, td {
+                  border: 1px solid black;
+                  padding: 8px;
+                  text-align: left;
+                }
+              </style>
+              
+              <table class="project-details__desc-para">
+                <tr>
+                  <td>Accuracy</td>
+                  <td>97.83%</td>
+                </tr>
+                <tr>
+                  <td>Precision</td>
+                  <td>98.19%</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>97.82%</td>
+                </tr>
+                <tr>
+                  <td>F1 Score</td>
+                  <td>97.79%</td>
+                </tr>
+              </table>
+
+              <p class="project-details__desc-para">In addition to the quantitative evaluation from the test dataset, I also conducted a number of tests using photos from the internet, and photos I took myself, with excellent results.  I was pleased to see that the website is even effective with blurry photos, like this one of a Wood Duck. </p>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/jpeg/bird_project_pic3.jpeg"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+
+              <h3 class="project-details__content-title"> Streamlit Website Deployment</h3>
+              <p class="project-details__desc-para">To provide a user-friendly interface for bird classification, I developed a Streamlit web application. Users can easily upload their bird photos and obtain predictions from the trained Bird Classifier model. The website presents a bar plot of the probability of the top 3 species (with their labels serving as Wikipedia links). After identifying the top prediction, the website presents a photo of the bird from the test dataset and provides details about the recognized species (from the Wikipedia API).</p>
+              
+              
+              
+              <h3 class="project-details__content-title">Data</h3>
+              <p class="project-details__desc-para">The bird <a href="https://www.kaggle.com/datasets/gpiosenka/100-bird-species">dataset</a> used in this project comprises a wide range of bird species. It includes 525 different species, enabling the model to accurately identify and classify a diverse range of birds.  Below are some sample photos from the dataset.</p>
+              
+              <style>
+                .no-border-table {
+                  border: none;
+                }
+              
+                .no-border-table th,
+                .no-border-table td {
+                  border: none;
+                  text-align: center;
+                }
+              
+                table {
+                  border-collapse: collapse;
+                  width: 100%;
+                  font-size: 18px;
+                }
+              
+                th,
+                td {
+                  border: 1px solid black;
+                  padding: 8px;
+                  text-align: left;
+                }
+              
+              </style>
+              <div align="center" class="no-border-table">
+                <table>
+                  <tr>
+                    <td><img src="https://github.com/nripstein/What-Bird-is-That/assets/98430636/1b852732-b90f-4003-8ad2-aa0a101bfcce" alt="scarlet macaw"></td>
+                    <td><img src="https://github.com/nripstein/What-Bird-is-That/assets/98430636/7d78b96d-4819-416c-ae54-206e1773b930" alt="bald eagle"></td>
+                    <td><img src="https://github.com/nripstein/What-Bird-is-That/assets/98430636/2c1742a1-b135-4cf1-a0d3-270bdca57750" alt="blue dacnis"></td>
+                  </tr>
+                  <tr>
+                    <td>Scarlet Macaw</td>
+                    <td>Bald Eagle</td>
+                    <td>Blue Dacnis</td>
+                  </tr>
+                </table>
+              </div>
+
+
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">Transfer Learning</div>
+                <div class="skills__skill">Streamlit</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See More</h3>
+              <a
+                href="https://what-bird-is-that.streamlit.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/nripstein/What-Bird-is-That"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>My Links</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/noah-ripstein/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nripstein">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <a href="./index.html">
+              <h4 class="heading heading-sm text-lt">Noah Ripstein</h4>
+            </a> 
+
+            <p class="main-footer__short-desc">
+              <a href="mailto:noah.h.ripstein@gmail.com?">noah.h.ripstein@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
