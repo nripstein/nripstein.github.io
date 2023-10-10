@@ -325,7 +325,7 @@ textarea {
     .about__content-details-course-table td {
       padding: 5px 20px; /* Adjust the values to control the padding */
     }
-    .about__image {
+    .about__image_2 {
       float: left;
       margin-right: 50px;
       margin-bottom: 20px;
@@ -795,3 +795,71 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+.about__header {
+  display: flex;
+  justify-content: center; /* Center-align the entire intro block within the header */
+  align-items: center;
+  flex-direction: column; /* This is to ensure your heading stays on top and the intro block below it */
+}
+
+.about__intro {
+  display: flex;
+  justify-content: start; /* Align the contents to start; image on the left and text next to it */
+  align-items: center; 
+  gap: 20px; 
+  width: fit-content; /* This makes sure the container takes only as much width as required by its children */
+  margin: auto; /* Center-align the container itself within its parent */
+}
+
+.about__image_2 {
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.heading-sec__sub_2 {
+  width: 400px;
+  flex-grow: 0;
+  text-align: justify;
+  display: block;
+  text-align: left;
+  color: #777;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: auto; /* This centers the text block if needed, can be removed if not desired */
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .about__intro {
+      flex-direction: column;
+      align-items: center; /* This will center-align the child elements within .about__intro on mobile */
+  }
+
+  .about__image_2 {
+      width: 90%; /* You can set this to a lesser value than 100% if you want some padding around the image */
+      margin: 0 auto; /* This centers the image horizontally */
+      margin-bottom: 10px; /* Keep the margin at the bottom */
+  }
+
+  .heading-sec__sub_2 {
+      width: 100%;
+      text-align: center; /* If you want the text to be centered, otherwise keep it as left-aligned */
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+      flex-direction: column; /* stack items vertically */
+  }
+
+  .project-details__links-btn {
+      width: 100%; /* make buttons full width */
+  }
+}
+  
