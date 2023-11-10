@@ -893,3 +893,18 @@ textarea {
   cursor: pointer; /* Change mouse cursor to indicate clickable */
 }
 
+.skills__skill_nolink {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #777;
+  transition: transform .3s; /* Add transition for smooth hover effect */
+  display: flex; /* Center the content */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); Optional: add shadow for depth */
+}
