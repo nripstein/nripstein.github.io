@@ -41,7 +41,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
+    {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
@@ -49,9 +49,9 @@ layout: default
     {% endif %}
 
     <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
+    {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest blog posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -70,11 +70,15 @@ layout: default
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
+
+        <div class="reach-out-note" style="text-align: center; margin-top: 10px;">
+          <p>Feel free to reach out!</p>
+        </div>
       </div>
     {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>
