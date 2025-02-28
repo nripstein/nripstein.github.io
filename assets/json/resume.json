@@ -78,8 +78,7 @@
       "summary": "Amplify is RBC's flagship technology and innovation early talent program, and <b>accepts less than 1% of applicants</b>.",
       "highlights": ["Built <b>patent-pending</b> multimodal machine learning product",
                     "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
-                    "Product projected to save $2M+ in first year of production",
-                    "Presented to auditorium with 400+ atendees"]
+                    "Product projected to save $2M+ in first year of production"]
     }
   ],
   "research": [
@@ -109,7 +108,7 @@
       "startDate": "2022-09-01",
       "endDate": "2024-05-30",
       "highlights": ["Bayesian modelling of human sensory perception and learning",
-                    "Novel computer vision methodology to automate 250+ hours of video labelling"]
+                    "Computer vision to automate 250+ hours of video labelling"]
     },
     {
       "name": "McMaster University",
