@@ -34,7 +34,7 @@ ninja.data = [{
       
         title: "Automating Repetetive Work With Computer Vision",
       
-      description: "Automatic video labelling for my undergrad thesis lab. (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
+      description: "My journey towards automating 250 hours of manual video labelling for my undergrad thesis lab and boosting my team&#39;s productivity. (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
       section: "Posts",
       handler: () => {
         
