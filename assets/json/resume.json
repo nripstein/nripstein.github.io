@@ -5,8 +5,8 @@
       "location": "Hamilton, Canada",
       "url": "https://artsci.mcmaster.ca/",
       "studyType": "Post-Bachelor Year",
-      "startDate": "2024-09-01",
-      "endDate": "2025-04-31",
+      "startDate": "2024",
+      "endDate": "2025",
       "courses": ["Advanced stats courses to prepare for grad school"]
     },
     {
@@ -15,53 +15,53 @@
       "url": "https://artsci.mcmaster.ca/",
       "area": "Arts and Science, & Psychology, Neuroscience and Behaviour",
       "studyType": "B.Arts Sc. (Hons.)",
-      "startDate": "2020-09-01",
-      "endDate": "2024-04-31",
+      "startDate": "2020",
+      "endDate": "2024",
       "courses": ["<b>Laura Dodson Prize</b>, top graduating award in program", "Math minor", "Honours Thesis: Bayesian Modelling of a Haptic Categorization Task, and Temporal Video Segmentation"]
     }
   ],
   "awards": [
     {
       "title": "Faculty of Arts & Science Top (FAST) Doctoral Fellowship",
-      "date": "2025-02-20",
+      "date": "2025",
       "awarder": "Faculty of Arts and Science, University of Toronto",
       "summary": "For “recruitment of the very best domestic students to PhD programs.”"
     },
     {
       "title": "Doctoral Recruitment Award",
-      "date": "2025-02-20",
+      "date": "2025",
       "awarder": "Department of Statistical Sciences, University of Toronto"
     },
     {
       "title": "Industry Disruptor Award",
-      "date": "2024-08-15",
+      "date": "2024",
       "awarder": "Royal Bank of Canada (RBC), Amplify Program",
       "url": "https://www.youtube.com/watch?v=FOZdlPCl4As",
       "summary": "$5,000 prize awarded by <b>chief executives</b> after Shark Tank-style pitch"
     },
     {
       "title": "Laura Dodson Prize",
-      "date": "2024-06-10",
+      "date": "2024",
       "awarder": "McMaster University, Faculty of Arts and Science",
       "url": "https://registrar.mcmaster.ca/convocation-archive/faculty-of-humanities-and-the-arts-science-program/#tab-30",
       "summary": "Top graduation award in program (awarded to 2 students in cohort)"
     },
     {
       "title": "Barbara Francis Scholarship",
-      "date": "2022-04-31",
+      "date": "2022",
       "awarder": "McMaster University, Faculty of Arts and Science",
       "summary": "Top academic award in program (awarded to one student/year)"
     },
     {
       "title": "Undergraduate Student Research Award (USRA)",
-      "date": "2022-04-30",
+      "date": "2022",
       "url": "https://artsci.mcmaster.ca/current-students/undergraduate-student-research-award-usra/",
       "awarder": "McMaster University, Faculty of Arts and Science",
       "summary": "Funding for summer 2022 research through competitive application"
     },
     {
       "title": "McMaster President’s Award ",
-      "date": "2020-09-01",
+      "date": "2020",
       "url": "https://registrar.mcmaster.ca/wp-content/uploads/2020/09/Presidents-awards-program-2020.pdf",
       "awarder": "McMaster University",
       "summary": "Entrance scholarship for 95%+ high school GPA"
@@ -106,7 +106,7 @@
       "location": "Hamilton, Canada",
       "summary": "Supervisor: Prof. Daniel Goldreich",
       "startDate": "2022-09-01",
-      "endDate": "2024-05-30",
+      "endDate": "2024-04-30",
       "highlights": ["Bayesian modelling of human sensory perception and learning",
                     "Computer vision to automate 250+ hours of video labelling"]
     },
