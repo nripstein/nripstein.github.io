@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 I was honoured with the top academic prize for McMaster's interdisciplinary [Artsci](https://artsci.mcmaster.ca/) program in at my graduation! [Laura Dodson Prize](https://registrar.mcmaster.ca/convocation-archive/faculty-of-humanities-and-the-arts-science-program/#tab-30)
+🎉 I was honoured with the top academic prize for McMaster's interdisciplinary [Artsci](https://artsci.mcmaster.ca/) program at my graduation! [Laura Dodson Prize](https://registrar.mcmaster.ca/convocation-archive/faculty-of-humanities-and-the-arts-science-program/#tab-30)
