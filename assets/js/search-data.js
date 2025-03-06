@@ -66,7 +66,7 @@ ninja.data = [{
     },{id: "news-i-presented-my-undergraduate-thesis-which-involved-bayesian-modeling-of-human-sensory-perception-and-learning-and-also-designing-a-computer-vision-program-to-automatically-analyze-video-of-participants-performing-an-experiment-read-more-here",
           title: '🧠 I presented my undergraduate thesis, which involved Bayesian modeling of human sensory...',
           description: "",
-          section: "News",},{id: "news-i-was-honoured-with-the-top-academic-prize-for-mcmaster-s-interdisciplinary-artsci-program-in-at-my-graduation-laura-dodson-prize",
+          section: "News",},{id: "news-i-was-honoured-with-the-top-academic-prize-for-mcmaster-s-interdisciplinary-artsci-program-at-my-graduation-laura-dodson-prize",
           title: '🎉 I was honoured with the top academic prize for McMaster’s interdisciplinary Artsci...',
           description: "",
           section: "News",},{id: "news-the-patent-pending-multimodal-ml-product-i-built-at-rbc-amplify-was-awarded-the-industry-disruptor-award-by-chief-executives-watch-me-in-the-amplify-promotional-video-here",
