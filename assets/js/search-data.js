@@ -34,7 +34,7 @@ ninja.data = [{
       
         title: "Automating Repetetive Work With Computer Vision",
       
-      description: "My journey towards automating 250 hours of manual video labelling for my undergrad thesis lab and boosting my team&#39;s productivity. (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
+      description: "My journey towards automating 250 hours of manual video labelling for my undergrad thesis lab (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
       section: "Posts",
       handler: () => {
         
@@ -45,7 +45,7 @@ ninja.data = [{
       
         title: "2048 Game AI",
       
-      description: "I developed a Python clone of the 2014 viral game &quot;2048,&quot; and designed a probabilistic AI to play it. My algorithm achieves a 97% win-rate by formalizing the game as a Markov Decision Processes and using a hybrid of Monte Carlo tree search and expectimax to select moves.",
+      description: "I developed a Python clone of the 2014 viral game &quot;2048,&quot; and designed a probabilistic AI to play it. My algorithm achieves a 97% win-rate by formalizing the game as a Markov Decision Process and using a hybrid of Monte Carlo tree search and expectimax to select moves.",
       section: "Posts",
       handler: () => {
         
