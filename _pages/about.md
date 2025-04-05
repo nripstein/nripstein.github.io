@@ -21,6 +21,4 @@ I'm an incoming Statistics PhD student at the University of Toronto. My research
 
 I completed my undergraduate degree in McMaster University's interdisciplinary "[Artsci](https://artsci.mcmaster.ca/)" program, with combined honours in Psychology, Neuroscience and Behaviour, and a Math minor. I developed my deep interest in Statistics through computational neuroscience research, where I studied the "Bayesian brain hypothesis," and worked on statistical models of human sensory perception and learning. 
 
-I'm currently taking a post-bachelor year of advanced statistics and math courses to prepare for my graduate studies.
-
 In my free time, I like to hike, canoe, play chess, and follow the stock market.
