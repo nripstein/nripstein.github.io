@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "This is a concise overview of my experience. A full CV is available upon request.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -34,7 +34,7 @@ ninja.data = [{
       
         title: "Automating Repetetive Work With Computer Vision",
       
-      description: "My journey towards automating 250 hours of manual video labelling for my undergrad thesis lab (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
+      description: "My journey towards automating 250 hours of video labelling for my undergrad thesis lab (And don&#39;t worry, there&#39;s a 1 minute TLDR overview)",
       section: "Posts",
       handler: () => {
         
