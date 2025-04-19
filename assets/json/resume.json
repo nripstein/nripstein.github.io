@@ -7,7 +7,7 @@
       "studyType": "Post-Bachelor Year",
       "startDate": "2024",
       "endDate": "2025",
-      "courses": ["Advanced stats courses to prepare for grad school"]
+      "courses": ["Additional advanced Statistics coursework"]
     },
     {
       "institution": "McMaster University",
@@ -17,7 +17,61 @@
       "studyType": "B.Arts Sc. (Hons.)",
       "startDate": "2020",
       "endDate": "2024",
-      "courses": ["<b>Laura Dodson Prize</b>, top graduating award in program", "Math minor", "Honours Thesis: Bayesian Modelling of a Haptic Categorization Task, and Temporal Video Segmentation"]
+      "courses": ["Math minor", "<b>Laura Dodson Prize</b>, top graduating award in program", "Honours Thesis: Bayesian Modelling of a Haptic Categorization Task, and Temporal Video Segmentation"]
+    }
+  ],
+  "research": [
+    {
+      "name": "University of Toronto",
+      "position": "Research Collaborator",
+      "location": "Hamilton, Canada",
+      "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
+      "startDate": "2024-08-02",
+      "highlights": ["Efficient computation for Bayesian hierarchical models; faster than MCMC, more flexible than INLA",
+                    "Applications in spatial statistics (multi-resolution disaggregation regression)"]
+    },
+    {
+      "name": "McMaster University",
+      "position": "Research Assistant",
+      "location": "Hamilton, Canada",
+      "summary": "Supervisor: Prof. Pratheepa Jegenathan",
+      "startDate": "2024-09-01",
+      "highlights": ["Bayesian spatial clustering",
+                    "Applications to spatial omics and tumour identification"]
+    },
+    {
+      "name": "McMaster University",
+      "position": "Undergraduate Researcher (Computational Neuroscience & Computer Vision)",
+      "url": "https://pnb.mcmaster.ca/goldreich-lab/CurrentRes.html#Modeling",
+      "location": "Hamilton, Canada",
+      "summary": "Supervisor: Prof. Daniel Goldreich",
+      "startDate": "2022-09-01",
+      "endDate": "2024-04-30",
+      "highlights": ["Bayesian modelling of human sensory perception and learning",
+                    "Computer vision to automate 250+ hours of video labelling"]
+    },
+    {
+      "name": "McMaster University",
+      "position": "Undergraduate Researcher (Bioethics)",
+      "location": "Hamilton, Canada",
+      "summary": "Supervisor: Prof. Daniel Coren",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-30",
+      "highlights": ["“Can people with dementia be morally responsible for the offensive things they say?”"]
+    }
+  ],
+  "industry": [
+    {
+      "name": "RBC Amplify",
+      "position": "Software Developer",
+      "url": "https://www.youtube.com/watch?v=FOZdlPCl4As",
+      "location": "Toronto, Canada",
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-30",
+      "summary": "Amplify is RBC's flagship technology and innovation early talent program, and <b>accepts less than 1% of applicants</b>",
+      "highlights": ["Built <b>patent-pending</b> multimodal machine learning product",
+                    "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
+                    "Product projected to save $2M+ in first year of production"]
     }
   ],
   "awards": [
@@ -25,7 +79,7 @@
       "title": "Faculty of Arts & Science Top (FAST) Doctoral Fellowship",
       "date": "2025",
       "awarder": "Faculty of Arts and Science, University of Toronto",
-      "summary": "For “recruitment of the very best domestic students to PhD programs.”"
+      "summary": "For “recruitment of the very best domestic students to PhD programs”"
     },
     {
       "title": "Doctoral Recruitment Award",
@@ -42,21 +96,21 @@
     {
       "title": "Laura Dodson Prize",
       "date": "2024",
-      "awarder": "McMaster University, Faculty of Arts and Science",
+      "awarder": "Faculty of Arts and Science, McMaster University",
       "url": "https://registrar.mcmaster.ca/convocation-archive/faculty-of-humanities-and-the-arts-science-program/#tab-30",
       "summary": "Top graduation award in program (awarded to 2 students in cohort)"
     },
     {
       "title": "Barbara Francis Scholarship",
       "date": "2022",
-      "awarder": "McMaster University, Faculty of Arts and Science",
+      "awarder": "Faculty of Arts and Science, McMaster University",
       "summary": "Top academic award in program (awarded to one student/year)"
     },
     {
       "title": "Undergraduate Student Research Award (USRA)",
       "date": "2022",
       "url": "https://artsci.mcmaster.ca/current-students/undergraduate-student-research-award-usra/",
-      "awarder": "McMaster University, Faculty of Arts and Science",
+      "awarder": "Faculty of Arts and Science, McMaster University",
       "summary": "Funding for summer 2022 research through competitive application"
     },
     {
@@ -65,59 +119,6 @@
       "url": "https://registrar.mcmaster.ca/wp-content/uploads/2020/09/Presidents-awards-program-2020.pdf",
       "awarder": "McMaster University",
       "summary": "Entrance scholarship for 95%+ high school GPA"
-    }
-  ],
-  "industry": [
-    {
-      "name": "RBC Amplify",
-      "position": "Software Developer",
-      "url": "https://www.youtube.com/watch?v=FOZdlPCl4As",
-      "location": "Toronto, Canada",
-      "startDate": "2024-05-01",
-      "endDate": "2024-08-30",
-      "summary": "Amplify is RBC's flagship technology and innovation early talent program, and <b>accepts less than 1% of applicants</b>.",
-      "highlights": ["Built <b>patent-pending</b> multimodal machine learning product",
-                    "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
-                    "Product projected to save $2M+ in first year of production"]
-    }
-  ],
-  "research": [
-    {
-      "name": "University of Toronto",
-      "position": "Research Collaborator",
-      "location": "Hamilton, Canada",
-      "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
-      "startDate": "2024-08-02",
-      "highlights": ["Efficient computation for Bayesian hierarchical models; faster than MCMC, more flexible than INLA",
-                    "Applications in spatial statistics (multi-resolution disaggregation regression)"]
-    },
-    {
-      "name": "McMaster University",
-      "position": "Research Assistant II",
-      "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Pratheepa Jegenathan",
-      "startDate": "2024-09-01",
-      "highlights": ["Bayesian spatial clustering", "Applications to spatial omics and tumour identification"]
-    },
-    {
-      "name": "McMaster University",
-      "position": "Undergraduate Researcher (Computational Neuroscience & Computer Vision)",
-      "url": "https://pnb.mcmaster.ca/goldreich-lab/CurrentRes.html#Investigating_CNS",
-      "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Daniel Goldreich",
-      "startDate": "2022-09-01",
-      "endDate": "2024-04-30",
-      "highlights": ["Bayesian modelling of human sensory perception and learning",
-                    "Computer vision to automate 250+ hours of video labelling"]
-    },
-    {
-      "name": "McMaster University",
-      "position": "Undergraduate Researcher (Bioethics)",
-      "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Daniel Coren",
-      "startDate": "2022-05-01",
-      "endDate": "2022-08-30",
-      "highlights": ["Independent research project funded by USRA", "“Can people with dementia be morally responsible for the offensive things they say?”"]
     }
   ],
   "skills": [
@@ -137,14 +138,14 @@
       "name": "Tools & Frameworks",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "INLA",
-        "Various R spatial statistics packages",
         "Numpy",
         "SciPy",
         "Sklearn",
         "Tensorflow",
         "PyTorch",
-        "Pandas"
+        "Pandas",
+        "INLA",
+        "Various R spatial statistics packages"
       ]
     }
   ]
