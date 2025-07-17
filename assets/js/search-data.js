@@ -63,8 +63,8 @@ ninja.data = [{
           window.location.href = "/blog/bird/";
         
       },
-    },{id: "news-i-presented-my-undergraduate-thesis-which-involved-bayesian-modeling-of-human-sensory-perception-and-learning-and-also-designing-a-computer-vision-program-to-automatically-analyze-video-of-participants-performing-an-experiment-read-more-here",
-          title: '🧠 I presented my undergraduate thesis, which involved Bayesian modeling of human sensory...',
+    },{id: "news-i-presented-my-undergraduate-thesis-at-neuroxchange-my-thesis-involved-bayesian-modeling-of-human-sensory-perception-and-learning-and-also-designing-a-computer-vision-program-to-automatically-analyze-video-of-participants-performing-an-experiment-read-more-here",
+          title: '🧠 I presented my undergraduate thesis at NeuroXChange! My thesis involved Bayesian modeling...',
           description: "",
           section: "News",},{id: "news-i-was-honoured-with-the-top-academic-prize-for-mcmaster-s-interdisciplinary-artsci-program-at-my-graduation-laura-dodson-prize",
           title: '🎉 I was honoured with the top academic prize for McMaster’s interdisciplinary Artsci...',
