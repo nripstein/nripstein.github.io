@@ -1,6 +1,15 @@
 {
   "education": [
     {
+      "institution": "University of Toronto",
+      "location": "Toronto, Canada",
+      "url": "https://www.statistics.utoronto.ca/",
+      "studyType": "PhD, Statistical Sciences",
+      "startDate": "2025"
+      // "endDate": "2030",
+      // "courses": ["Additional advanced Statistics coursework"]
+    },
+    {
       "institution": "McMaster University",
       "location": "Hamilton, Canada",
       "url": "https://artsci.mcmaster.ca/",
@@ -24,7 +33,7 @@
     {
       "name": "University of Toronto",
       "position": "Research Collaborator",
-      "location": "Hamilton, Canada",
+      "location": "Toronto, Canada",
       "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
       "startDate": "2024-08-02",
       "highlights": ["Efficient computation for Bayesian hierarchical models; faster than MCMC, more flexible than INLA",
@@ -36,6 +45,7 @@
       "location": "Hamilton, Canada",
       "summary": "Supervisor: Prof. Pratheepa Jegenathan",
       "startDate": "2024-09-01",
+      "endDate": "2025-06-30",
       "highlights": ["Bayesian spatial clustering",
                     "Applications to spatial omics and tumour identification"]
     },
@@ -72,6 +82,16 @@
       "highlights": ["Built <b>patent-pending</b> multimodal machine learning product",
                     "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
                     "Product projected to save $2M+ in first year of production"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "2048 Game AI",
+      "description": "Software Developer",
+      "url": "/blog/2048-AI/",
+      "summary": "2048 is the viral mobile and online game from 2014",
+      "highlights": ["Developed probabilistic methods to algorithmically beat 2048 with 97% win-rate",
+                    "Learned about Markov Decision Processes, developed hybid algorithm combining Monte Carlo Tree Search and Expectimax"]
     }
   ],
   "awards": [
