@@ -34,8 +34,8 @@
       "location": "Toronto, Canada",
       "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
       "startDate": "2024-08-02",
-      "highlights": ["Efficient computation for Bayesian hierarchical models; faster than MCMC, more flexible than INLA",
-                    "Applications in spatial statistics (multi-resolution disaggregation regression)"]
+      "highlights": ["Spatial statistics and Bayesian computation",
+                    "Developing method and software for computationally scalable spatial disaggregation regression"]
     },
     {
       "name": "McMaster University",
