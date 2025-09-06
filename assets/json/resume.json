@@ -87,6 +87,7 @@
       "name": "2048 Game AI",
       "description": "Software Developer",
       "url": "/blog/2048-AI/",
+      "badgeImage": "/assets/img/2048_logo.png",
       "summary": "2048 is the viral mobile and online game from 2014",
       "highlights": ["Developed probabilistic methods to algorithmically beat 2048 with 97% win-rate",
                     "Learned about Markov Decision Processes, developed hybid algorithm combining Monte Carlo Tree Search and Expectimax"]

@@ -33,6 +33,27 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+/* Badge image used in CV projects (date column replacement) */
+.cv-badge-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .cv-badge-image {
+    max-height: 84px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cv-badge-image {
+    max-height: 96px;
+  }
+}
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/

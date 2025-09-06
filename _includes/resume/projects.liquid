@@ -13,6 +13,17 @@
             </span>
           </div>
           <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        {% elsif content.badgeImage %}
+          <div class="col-md-2 text-center date-column d-none d-md-flex justify-content-center align-items-center">
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.1667 }}px, (min-width: 768px) 16.67vw, 0vw{% endcapture %}
+            {% include figure.liquid 
+              path=content.badgeImage 
+              class="cv-badge-image rounded" 
+              sizes=sizes 
+              alt=content.name 
+              loading="lazy" %}
+          </div>
+          <div class="col-12 col-md-10 mt-2 mt-md-0">
         {% else %}
           <div class="col-xs-10 col-sm-10 col-md-10 
             offset-xs-2 offset-sm-2 offset-md-2 
