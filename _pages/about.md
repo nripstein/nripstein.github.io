@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I'm an incoming Statistics PhD student at the University of Toronto. My research involves developing statistical methodology, computational techniques, and software to solve data-centric challenges in healthcare and science. I've enjoyed working on spatial statistics, Bayesian computation, and hierarchical models.
+I'm a first year Statistics PhD student at the University of Toronto. My research involves developing statistical methodology, computational techniques, and software to solve data-centric challenges in healthcare and science. I've enjoyed working on spatial statistics, Bayesian computation, and hierarchical models.
 
 I completed my undergraduate degree in McMaster University's interdisciplinary "[Artsci](https://artsci.mcmaster.ca/)" program, with combined honours in Psychology, Neuroscience and Behaviour, and a Math minor. I developed my deep interest in Statistics through computational neuroscience research, where I studied the "Bayesian brain hypothesis," and worked on statistical models of human sensory perception and learning. 
 
