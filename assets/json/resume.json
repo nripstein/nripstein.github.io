@@ -14,7 +14,7 @@
       "studyType": "Post-Bachelor Year",
       "startDate": "2024",
       "endDate": "2025",
-      "courses": ["Additional advanced Statistics coursework"]
+      "courses": ["Additional Statistics courses and Research"]
     },
     {
       "institution": "McMaster University",
@@ -77,7 +77,7 @@
       "startDate": "2024-05-01",
       "endDate": "2024-08-30",
       "summary": "Amplify is RBC's flagship technology and innovation early talent program, and <b>accepts less than 1% of applicants</b>",
-      "highlights": ["Built <b>patent-pending</b> multimodal machine learning product",
+      "highlights": ["Built multimodal machine learning product (<b>patent-pending</b>) to streamline call center interactions",
                     "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
                     "Product projected to save $2M+ in first year of production"]
     }
