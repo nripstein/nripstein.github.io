@@ -168,7 +168,7 @@ latest_posts:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+  input: Kramdown
   syntax_highlighter_opts:
     css_class: "highlight"
     span:

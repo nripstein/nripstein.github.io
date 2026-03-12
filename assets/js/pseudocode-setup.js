@@ -1,20 +1,7 @@
-window.MathJax = {
-  tex: {
-    inlineMath: [
-      ["$", "$"],
-      ["\\(", "\\)"],
-    ],
-    displayMath: [
-      ["$$", "$$"],
-      ["\\[", "\\]"],
-    ],
-    processEscapes: true,
-    processEnvironments: true,
-  },
-};
-
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
+    const mathTargets = [];
+
     document.querySelectorAll("pre>code.language-pseudocode").forEach((elem) => {
       const texData = elem.textContent;
       const parent = elem.parentElement.parentElement;
@@ -28,6 +15,11 @@ document.addEventListener("readystatechange", () => {
       parent.removeChild(elem.parentElement);
       /* embed the visualization in the container */
       pseudocode.renderElement(pseudoCodeElement);
+      mathTargets.push(parent);
     });
+
+    if (mathTargets.length > 0 && window.requestMathTypeset) {
+      window.requestMathTypeset(mathTargets);
+    }
   }
 });

@@ -186,6 +186,7 @@
 
 {% if site.enable_math %}
   <!-- MathJax -->
+  <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
   <script
     defer
     type="text/javascript"
@@ -194,14 +195,12 @@
     integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
     crossorigin="anonymous"
   ></script>
-  {% unless page.pseudocode %}
-    <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
-    <script
-      defer
-      src="{{ site.third_party_libraries.polyfill.url.js }}"
-      crossorigin="anonymous"
-    ></script>
-  {% else %}
+  <script
+    defer
+    src="{{ site.third_party_libraries.polyfill.url.js }}"
+    crossorigin="anonymous"
+  ></script>
+  {% if page.pseudocode %}
     <script src="{{ '/assets/js/pseudocode-setup.js' | relative_url | bust_file_cache }}"></script>
     <script
       type="text/javascript"
@@ -209,7 +208,7 @@
       integrity="{{ site.third_party_libraries.pseudocode.integrity.js }}"
       crossorigin="anonymous"
     ></script>
-  {% endunless %}
+  {% endif %}
 {% endif %}
 
 {% if site.enable_google_analytics %}
