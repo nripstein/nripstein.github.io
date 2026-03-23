@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-automating-repetetive-work-with-computer-vision",
+        },{id: "post-multimodal-machine-learning-to-streamline-call-center-interactions",
+      
+        title: "Multimodal Machine Learning to Streamline Call Center Interactions",
+      
+      description: "The call center product that my team built to win a grand prize at RBC Amplify!",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/OCTO/";
+        
+      },
+    },{id: "post-automating-repetetive-work-with-computer-vision",
       
         title: "Automating Repetetive Work With Computer Vision",
       
