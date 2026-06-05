@@ -83,6 +83,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-patent-pending-multimodal-ml-product-i-built-at-rbc-amplify-was-awarded-the-industry-disruptor-award-by-chief-executives-watch-me-in-the-amplify-promotional-video-here",
           title: '🎉 The patent-pending multimodal ML product I built at RBC Amplify was awarded...',
           description: "",
+          section: "News",},{id: "news-i-presented-my-work-on-scalable-spatial-disaggregation-at-ssc-2026-and-was-awarded-a-student-research-poster-presentation-award",
+          title: '🎉 I presented my work on scalable spatial disaggregation at SSC 2026 and...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
