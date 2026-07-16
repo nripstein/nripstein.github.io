@@ -4,7 +4,7 @@
       "institution": "University of Toronto",
       "location": "Toronto, Canada",
       "url": "https://www.statistics.utoronto.ca/",
-      "studyType": "PhD, Statistical Sciences",
+      "studyType": "PhD, Statistics",
       "startDate": "2025"
     },
     {
@@ -31,17 +31,17 @@
     {
       "name": "University of Toronto",
       "position": "Graduate Researcher",
-      "location": "Toronto, Canada",
-      "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
+      "location": "Toronto, Canada", 
+      // "summary": "Supervisors: Prof. Patrick Brown & Prof. Jamie Stafford",
       "startDate": "2025-09-01",
-      "highlights": ["Spatial statistics and Bayesian computation",
+      "highlights": ["Bayesian computation and spatial statistics",
                     "Developed method and software for computationally scalable spatial disaggregation regression"]
     },
     {
       "name": "McMaster University",
       "position": "Research Assistant",
       "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Pratheepa Jegenathan",
+      // "summary": "Supervisor: Prof. Pratheepa Jegenathan",
       "startDate": "2024-09-01",
       "endDate": "2025-06-30",
       "highlights": ["Bayesian spatial clustering",
@@ -49,10 +49,10 @@
     },
     {
       "name": "McMaster University",
-      "position": "Undergraduate Researcher (Computational Neuroscience & Computer Vision)",
+      "position": "Research Assistant",
       "url": "https://pnb.mcmaster.ca/goldreich-lab/CurrentRes.html#Modeling",
       "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Daniel Goldreich",
+      // "summary": "Supervisor: Prof. Daniel Goldreich",
       "startDate": "2022-09-01",
       "endDate": "2024-04-30",
       "highlights": ["Bayesian modelling of human sensory perception and learning",
@@ -60,9 +60,9 @@
     },
     {
       "name": "McMaster University",
-      "position": "Undergraduate Researcher (Bioethics)",
+      "position": "Research Assistant (Bioethics)",
       "location": "Hamilton, Canada",
-      "summary": "Supervisor: Prof. Daniel Coren",
+      // "summary": "Supervisor: Prof. Daniel Coren",
       "startDate": "2022-05-01",
       "endDate": "2022-08-30",
       "highlights": ["“Can people with dementia be morally responsible for the offensive things they say?”"]
@@ -76,7 +76,7 @@
       "location": "Toronto, Canada",
       "startDate": "2024-05-01",
       "endDate": "2024-08-30",
-      "summary": "Amplify is RBC's flagship technology and innovation early talent program, and <b>accepts less than 1% of applicants</b>",
+      "summary": "My team won the grand prize at Amplify, RBC's flagship early talent program which <b>accepts less than 1% of applicants</b>",
       "highlights": ["Built multimodal machine learning product (<b>patent-pending</b>) to streamline call center interactions",
                     "Awarded “Industry Disruptor Award” by chief executives in competition with 18 teams", 
                     "Product projected to save $2M+ in first year of production"]
@@ -160,6 +160,15 @@
       "awarder": "McMaster University",
       "summary": "Entrance scholarship for 95%+ high school GPA"
     }
+  ],
+  "patents": [
+  {
+    "name": "Methods and Systems for Handling Incoming Client Calls",
+    "publisher": "U.S. Patent Application Publication No. 20260059050",
+    "releaseDate": "2026-02-26",
+    "summary": "Patent pending. Co-inventor.",
+    "url": "https://patents.justia.com/patent/20260059050"
+  }
   ],
   "skills": [
     {
