@@ -81,7 +81,7 @@ ninja.data = [{
           window.location.href = "/blog/bird/";
         
       },
-    },{id: "news-i-presented-my-undergraduate-thesis-at-neuroxchange-my-thesis-involved-bayesian-modeling-of-human-sensory-perception-and-learning-and-also-designing-a-computer-vision-program-to-automatically-analyze-video-of-participants-performing-an-experiment-read-more-here",
+    },{id: "news-i-presented-my-undergraduate-thesis-at-neuroxchange-my-thesis-involved-bayesian-modeling-of-human-sensory-perception-and-learning-and-also-building-a-computer-vision-system-to-automatically-analyze-video-of-participants-performing-an-experiment-read-more-here",
           title: '🧠 I presented my undergraduate thesis at NeuroXChange! My thesis involved Bayesian modeling...',
           description: "",
           section: "News",},{id: "news-i-was-honoured-with-the-top-academic-prize-for-mcmaster-s-interdisciplinary-artsci-program-at-my-graduation-laura-dodson-prize",
@@ -92,6 +92,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-presented-my-work-on-scalable-spatial-disaggregation-at-ssc-2026-and-was-awarded-a-student-research-poster-presentation-award",
           title: '🎉 I presented my work on scalable spatial disaggregation at SSC 2026 and...',
+          description: "",
+          section: "News",},{id: "news-i-was-awarded-an-nserc-cgrs-d-award-thank-you-taxpayers",
+          title: '🎉 I was awarded an NSERC CGRS-D award. Thank you taxpayers!',
           description: "",
           section: "News",},{
         id: 'social-email',
