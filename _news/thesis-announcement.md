@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🧠 I presented my undergraduate thesis at NeuroXChange! My thesis involved Bayesian modeling of human sensory perception and learning, and also designing a Computer Vision program to automatically analyze video of participants performing an experiment. [Read more here]({{ site.baseurl }}/blog/ug-thesis/)
+🧠 I presented my undergraduate thesis at NeuroXChange! My thesis involved Bayesian modeling of human sensory perception and learning, and also building a Computer Vision system to automatically analyze video of participants performing an experiment. [Read more here]({{ site.baseurl }}/blog/ug-thesis/)
 

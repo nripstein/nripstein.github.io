@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🎉 The patent-pending multimodal ML product I built at RBC Amplify was awarded the "Industry Disruptor Award" by chief executives! [Watch me in the Amplify promotional video here](https://www.youtube.com/watch?v=FOZdlPCl4As)
+🎉 The [patent-pending](https://patents.justia.com/inventor/noah-ripstein) multimodal ML product I built at RBC Amplify was awarded the "Industry Disruptor Award" by chief executives! [Watch me in the Amplify promotional video here](https://www.youtube.com/watch?v=FOZdlPCl4As)
+
