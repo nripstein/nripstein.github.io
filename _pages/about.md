@@ -17,10 +17,10 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I'm a Statistics PhD student at the University of Toronto supervised by Jamie Stafford and Patrick Brown. My research interests include computational statistics, probabilistic modelling, approximate inference and their applications to domains with complex and large data. Lately, I've been working on Bayesian optimization.
-
-I completed my undergraduate degree in McMaster University's interdisciplinary "[Artsci](https://artsci.mcmaster.ca/)" program, with combined honours in Psychology, Neuroscience and Behaviour, and a Math minor. I developed my deep interest in Statistics through computational neuroscience research, where I studied the "Bayesian brain hypothesis," and worked on statistical models of human sensory perception and learning. 
+I'm a Statistics PhD student at the University of Toronto supervised by Jamie Stafford and Patrick Brown. My research interests lie in computational statistics, machine learning, and their applications to domains with complex and large data. Lately, I've been working on Bayesian optimization.
 
 My PhD is generously supported by an [NSERC CGRS-D](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-doctoral-program) and [CANSSI](https://canssi.ca/).
 
-In my free time, I love to hike, [canoe]({{ '/canoeing/' | relative_url }}), play chess, and follow the stock market.
+Before my PhD, I completed my undergraduate degree in McMaster University's interdisciplinary "[Artsci](https://artsci.mcmaster.ca/)" program, with combined honours in Psychology, Neuroscience and Behaviour, and a Math minor. I developed my deep interest in Statistics through computational neuroscience research, where I studied the "Bayesian brain hypothesis," and worked on statistical models of human sensory perception and learning. 
+
+In my free time, I love to [canoe]({{ '/canoeing/' | relative_url }}), spend time with friends, and follow the stock market.
